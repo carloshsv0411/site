@@ -1,0 +1,45 @@
+body {
+    font-family: 'ArialBlack', Arial, Helvetica, sans-serif, serif, sans-serif;
+    font-style: italic;
+    background-color: black;
+    background-image:url(../../../Pictures/sitecarlin.jpg);
+    background-size: 100%;
+    font-size: 100%;
+    display: flex;
+    color: rgb(214, 214, 193);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.chat-container {
+    width: 400px;
+    height: 400px;
+    padding: 10px;
+    background-color: transparent;
+    border-color: #ffffff;
+    backdrop-filter: blur(16px ); 
+    -webkit-backdrop-filter: blur(16px );
+    border-radius: 5px;
+    border: 1px solid whitesmoke;
+    box-shadow: 0 0 10px #ffffff;
+}
+.messages {
+    height: 320px;
+    overflow-y: auto;
+    border: 1px 3dvb hsl(0, 0%, 0%);
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.message 
+{
+    padding: 5px;
+    border-bottom: 1px solid hwb(0 100% 0%);
+    border-style:hidden;
+}
+
+.message:last-child 
+{
+    border-bottom:none;
+}
